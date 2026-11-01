@@ -1,10 +1,10 @@
 # Nexus images
 
-Made from in-game screenshots at 3840x2160, scaled down.
+Made from in-game screenshots at 3840x2160, scaled down. The thumbnail is rendered from `content.json` and `src/`; the other images are older crops.
 
 | File | Size | Role | Content |
 |---|---|---|---|
-| `00-thumbnail.jpg` | 1920x1080 | Gallery, first (Nexus uses it as the mods-grid thumbnail) | The title "Proximity Pickup" and two lines: the game's Stone Furnace icon with "Pick up a whole crafting batch at once", and a keyboard F keycap with "No more pressing F dozens of times". The background is the `gallery-2-after.jpg` shot, cropped so that the pickup lines (+2 Wire, +6 Processed Plastic, +9 Cloth) and the Scrap prompt sit on the right and the compass, the hotbar, and the key hints are cut off, darkened on the left. The icon is the game's own texture (`T_Stone_Furnace_Icon`). The layout is rendered from HTML with headless Edge. |
+| `00-thumbnail.jpg` | 1920x1080 | Gallery, first (Nexus uses it as the mods-grid thumbnail) | The title "Proximity Pickup" ("Pickup" in gold), and two lines: the game's Stone Furnace icon with "Pick up a whole crafting batch at once" ("crafting batch" in gold), and an F keycap (drawn by the tool) with "No more pressing F dozens of times". The background is a crop of the `gallery-2-after.jpg` shot (`src/pickup-lines.jpg`), with the pickup lines (+2 Wire, +6 Processed Plastic, +9 Cloth) and the Scrap prompt on the right, darkened on the left. The icon is the game's own texture (`T_Stone_Furnace_Icon`). The layout is the series layout of the Permafrost mods (`MOD-IMAGES.md`); on the smallest grid card, the check box and the update badge cover a small part of the top-left corner of the title, which is accepted. Rendered with the nexus-mod-images tool from `content.json` and the screenshot in `src/`. |
 | `background.jpg` | 1300x372 | Page background | The Dismantle Bench with its prompt ("Press F Open") and the pickup lines "+1 Wire", "+12 Scrap", and "+30 Processed Plastic", cropped from the `gallery-3-bench.jpg` shot without the side and bottom HUD. |
 | `gallery-1-before.jpg` | 1920x1080 | Gallery | The output of the Dismantle Bench on its shelf, with the Cloth prompt ("Press F Pick up"). |
 | `gallery-2-after.jpg` | 1920x1080 | Gallery | One second later: the pickup lines "+2 Wire", "+6 Processed Plastic", and "+9 Cloth", and the Scrap pile still on the shelf with its prompt. |

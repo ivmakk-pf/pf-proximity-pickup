@@ -1,0 +1,24 @@
+{
+  "nexus": {
+    "name": "Proximity Pickup",
+    "author": "ivmakk0",
+    "category": "Gameplay",
+    "summary": "Pick up one item from a pile, and the whole pile comes with it."
+  },
+  "thumbnail": {
+    "out": "00-thumbnail.jpg",
+    "screenshot": "pickup-lines.jpg",
+    "crop": [383, 529, 2300, 1294],
+    "title": [{ "text": "Proximity" }, { "text": "Pickup", "accent": true }],
+    "rows": [
+      {
+        "icon": "Assets/Items/BuildParts/Stone_Furnance/Icons/T_Stone_Furnace_Icon",
+        "caption": [{ "text": "Pick up a whole" }, [{ "text": "crafting batch", "accent": true }, { "text": " at once" }]]
+      },
+      {
+        "key": "F",
+        "caption": [{ "text": "No more pressing F" }, { "text": "dozens of times", "accent": true }]
+      }
+    ]
+  }
+}
