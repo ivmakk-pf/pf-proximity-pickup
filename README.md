@@ -31,7 +31,7 @@ Tested only in single player. In co-op, only the host needs the mod: the pile pi
 
 **Vortex (recommended):**
 
-1. Click **Vortex** at the top of the [Nexus page](https://www.nexusmods.com/games/permafrost/mods) *(needs the [Permafrost Vortex Extension](https://www.nexusmods.com/site/mods/2466), which also installs UE4SS)*.
+1. Click **Vortex** at the top of the [Nexus page](https://www.nexusmods.com/permafrost/mods/40) *(needs the [Permafrost Vortex Extension](https://www.nexusmods.com/site/mods/2466), which also installs UE4SS)*.
 
 **Manual installation:**
 
